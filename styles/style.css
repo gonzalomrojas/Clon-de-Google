@@ -1,0 +1,113 @@
+body{
+    background-color: #202124;
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.imagencuadricula{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+}
+.container{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+.account-img{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text{
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* hasta aqui seria el navbar de gmail imagenes etc */
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.title{
+       font-weight: 500;
+    letter-spacing: -6;
+    color: #fff;
+    font-size: 90px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    
+}
+/* hasta aqui seria el titulo Google */
+
+.input-google{
+    width: 520px;
+    height: 40px;
+    border-radius: 20PX;
+    background-color: #202124;
+    border: 1px solid rgb(101, 101, 101);
+    color: #fff;
+    padding-left: 50px;
+    outline: none;
+}
+.searcher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-google::placeholder{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.input-google:hover{
+    background-color: #313134;
+}
+.containerbotones{
+    margin-top: 30px;
+    display: flex;
+    gap: 12px;
+}
+.boton{
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303134;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    }
+
+
+.containertext{
+    display: flex;
+    align-items: center;
+  
+}
+.textoofrecido{
+    color: rgb(157, 157, 157);
+}
+.español{
+    color: steelblue;
+    margin-left: 8px;
+}
